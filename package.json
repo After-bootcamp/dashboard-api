@@ -1,0 +1,26 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "The API for the dashboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/After-bootcamp/dashboard-api.git"
+  },
+  "author": "Todd C Gerdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/After-bootcamp/dashboard-api/issues"
+  },
+  "homepage": "https://github.com/After-bootcamp/dashboard-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "jwks-rsa": "^1.2.1"
+  }
+}
