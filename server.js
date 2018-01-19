@@ -24,6 +24,7 @@ const authCheck = jwt({
 });
 
 app.get('/api/user/data', authCheck, (req, res) => {
+  console.log(req.body);
   let UserData = ["This is the user's data","It's pretty sweet"];
   res.json(UserData);
 })
